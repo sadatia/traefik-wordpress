@@ -18,7 +18,7 @@ services:
     labels:
       - "traefik.backend=wordpress-example"
       - "traefik.docker.network=web"
-      - "traefik.frontend.rule=Host:example.dk,www.dellydot.dk"
+      - "traefik.frontend.rule=Host:web.docker.dhaka.pro,www.web.docker.dhaka.pro"
       - "traefik.enable=true"
       - "traefik.port=80"
 
